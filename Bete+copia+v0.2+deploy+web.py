@@ -3,10 +3,7 @@
 
 # In[ ]:
 
-print("===============")
-print(" ")
 print("ElizaBETE Project (alpha) - https://github.com/marcelotournier/ElizaBETE")
-print(" ")
 print(" ")
 print("===============")
 print("DISCLAIMER - this code is only for educational purposes and cannot be used as a therapy of any kind. Seek professional assistance if you have any physical or emotional disorders.")
