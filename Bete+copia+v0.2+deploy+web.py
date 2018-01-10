@@ -3,6 +3,17 @@
 
 # In[ ]:
 
+print("===============")
+print(" ")
+print("ElizaBETE Project (alpha) - https://github.com/marcelotournier/ElizaBETE")
+print(" ")
+print(" ")
+print("===============")
+print("DISCLAIMER - this code is only for educational purposes and cannot be used as a therapy of any kind. Seek professional assistance if you have any physical or emotional disorders.")
+print(" ")
+print("AVISO - Este código e seu uso se destina apenas a objetivos educacionais e de treinamento em programação. Não pode ser usado com propósitos terapêuticos. Se você possui qualquer suspeita de desordens físicas ou emocionais, procure assistência de um profissional.")
+print("===============")
+print(" ")
 
 import re
 import random
