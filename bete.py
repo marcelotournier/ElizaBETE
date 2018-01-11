@@ -32,65 +32,60 @@ reflections = {
     "você fará": "eu farei",
     "seu": "meu",
     "seus": "meus",
+    "me": "se",
     "você": "eu",
 }
 
 psychobabble = [
-    [r'Eu preciso (.*)',
+    [r'preciso (.*)',
      ["Por que você precisa {0}?",
       "Realmente ajudaria se você tivesse {0}?",
       "Tem certeza que você necessita de {0}?"]],
-
-    [r'Por que você não ([^\?]*)\??',
+    
+    [r'por que você não ([^\?]*)\??',
      ["Você realmente acha que eu não {0}?",
       "Talvez, qualquer hora eu irei {0}.",
       "Você realmente quer que eu {0}?"]],
 
-    [r'Por que eu não posso ([^\?]*)\??',
+    [r'por que eu não posso ([^\?]*)\??',
      ["Você acha que você deveria ser capaz de {0}?",
       "Se você pudesse {0}, o que você faria?",
       "Eu não sei -- Por que você não {0}?",
       "Você já tentou mesmo?"]],
 
-    [r'Eu não posso (.*)',
+    [r'não posso (.*)',
      ["Como você sabe que não pode {0}?",
       "Talvez você possa {0} se você tentar.",
       "O que você precisa para conseguir {0}?"]],
 
-    [r'Eu estou (.*)',
+    [r'estou (.*)',
      ["Você veio até aqui porque você está {0}?",
       "A quanto tempo você está {0}?",
       "Como você sente por estar {0}?"]],
 
-    [r'Estou (.*)',
-     ["Como você se sente por estar {0} ?",
-      "Você gosta de estar {0}?",
-      "Por que você me diz que você está {0}?",
-      "Por que você acha que você está {0}?"]],
-
-    [r'Você é ([^\?]*)\??',
+    [r'você é ([^\?]*)\??',
      ["Importa se sou {0}?",
       "Você preferiria que eu não fosse {0}?",
       "I am Talvez você acredite que sou {0}.",
       "Pode ser que eu seja {0} -- O que você acha?"]],
 
-    [r'Você está ([^\?]*)\??',
+    [r'você está ([^\?]*)\??',
      ["Importa se estou {0}?",
       "Você preferiria que eu não estivesse {0}?",
       "I am Talvez você acredite que estou {0}.",
       "Pode ser que eu esteja {0} -- O que você acha?"]],
 
-    [r'O que (.*)',
+    [r'o que (.*)',
      ["Por que você pergunta?",
       "Como é que uma resposta a esta pergunta ajudaria você?",
       "O que você acha?"]],
 
-    [r'Como (.*)',
+    [r'como (.*)',
      ["Como você acha que é isso?",
       "Talvez você mesmo possa responder a sua pergunta.",
       "O que realmente você quer perguntar?"]],
 
-    [r'Porque (.*)',
+    [r'porque (.*)',
      ["Esta é a verdadeira razão?",
       "Que outras razões vêm na sua mente?",
       "Esta razão pode se aplicar a algo mais?",
@@ -100,12 +95,12 @@ psychobabble = [
      ["Há muitas vezes que não precisamos pedir desculpas.",
       "O que você sente quando pede desculpas?"]],
 
-    [r'Olá(.*)',
+    [r'olá(.*)',
      ["Olá... Estou feliz por você passar aqui hoje.",
       "Olá... Como você está hoje?",
       "Oi, como vai hoje?"]],
 
-    [r'Oi(.*)',
+    [r'oi(.*)',
      ["Olá... Estou feliz por você passar aqui hoje.",
       "Olá... Como você está hoje?",
       "Oi, como vai hoje?"]],
@@ -115,7 +110,7 @@ psychobabble = [
       "Você realmente acha isso?",
       "Mas você não tem certeza que {0}?"]],
 
-    [r'Eu penso (.*)',
+    [r'penso (.*)',
      ["Você duvida que {0}?",
       "Você realmente acha isso?",
       "Mas você não tem certeza que {0}?"]],
@@ -130,7 +125,7 @@ psychobabble = [
       "Quando você pensa em uma amiga, o que vem na sua mente?",
       "Por que você não me fala mais sobre uma amiga de infância?"]],
     
-    [r'Sim',
+    [r'sim',
      ["Você parece muito certo disso.",
       "OK, mas você pode me contar mais?"]],
 
@@ -153,7 +148,7 @@ psychobabble = [
       "Você se sente ameaçado por computadores?"]],
 
     
-    [r'É (.*)',
+    [r'é (.*)',
      ["Você acha que é {0}?",
       "Quem sabe é {0} -- O que você acha?",
       "Se fosse {0}, o que você faria?",
@@ -161,17 +156,17 @@ psychobabble = [
       "Você parece ter muita certeza disso.",
       "Se eu dissesse a você que isso provavelmente não é {0}, o que você sentiria?"]],
 
-    [r'Você pode ([^\?]*)\??',
+    [r'você pode ([^\?]*)\??',
      ["O que faz você pensar que não posso {0}?",
       "Se eu pudesse {0}, o que aconteceria então?",
       "Por que você pergunta se eu posso {0}?"]],
 
-    [r'Posso ([^\?]*)\??',
+    [r'posso ([^\?]*)\??',
      ["Talvez você não queira {0}.",
       "Você quer ser capaz de {0}?",
       "Se você pudesse {0}, você faria?"]],
 
-    [r'Você é (.*)',
+    [r'você é (.*)',
      ["Por que você acha que eu sou {0}?",
       "Você teria prazer em pensar que sou {0}?",
       "Talvez você gostaria que eu fosse {0}.",
@@ -180,47 +175,47 @@ psychobabble = [
       "Por que você pensa que eu sou {0}?",
       "Estamos falando sobre você ou sobre mim?"]],
 
-    [r'Eu não (.*)',
+    [r'eu não (.*)',
      ["Você realmente não {0}?",
       "Por que você não {0}?",
       "Você não quer {0}?"]],
 
-    [r'Sinto (.*)',
+    [r'sinto (.*)',
      ["Bom, conte-me mais sobre estes sentimentos.",
       "Você sente {0} com frequência?",
       "Normalmente, quando você sente {0}?",
       "Quando você sente {0}, o que você faz?"]],
 
-    [r'Tenho (.*)',
+    [r'tenho (.*)',
      ["Por que você me diz que você tem {0}?",
       "Você realmente tem {0}?",
       "Agora que você tem {0}, qual será o próximo passo?"]],
 
-    [r'Teria (.*)',
+    [r'teria (.*)',
      ["Poderia explicar por que você teria {0}?",
       "Por quê você teria {0}?",
       "Who else knows that you would {0}?"]],
 
-    [r'Existe (.*)',
+    [r'existe (.*)',
      ["Você acha que existe {0}?",
       "É provável que exista {0}.",
       "Você gostaria que houvesse {0}?"]],
 
-    [r'Meu (.*)',
+    [r'meu (.*)',
      ["Entendo, seu {0}.",
       "Por que você diz que seu {0}?",
       "Quando seu {0}, como você se sente?"]],
 
-    [r'Você (.*)',
+    [r'você (.*)',
      ["Deveríamos estar discutindo sobre você, não sobre mim.",
       "Por que você fala isso de mim?",
       "Por que você se importa que eu {0}?"]],
 
-    [r'Por que (.*)',
+    [r'por que (.*)',
      ["Por que você não me diz a razão de {0}?",
       "Por que você pensa {0}?"]],
 
-    [r'Eu quero (.*)',
+    [r'quero (.*)',
      ["O que significaria para você se você tivesse {0}?",
       "Por que você quer {0}?",
       "O que você faria se você tivesse {0}?",
@@ -260,7 +255,6 @@ psychobabble = [
 
     [r'(.*)',
      ["Por favor, conte mais.",
-      "Vamos mudar de foco um pouco... Fale sobre sua família.",
       "Você pode me explicar com mais detalhes?",
       "Por que você diz -- {0}?",
       "Entendo.",
