@@ -237,7 +237,7 @@ psychobabble = [
       "Como você se sente sobre seu pai?",
       "Seu relacionamento com seu pai tem a ver com o que você sente agora?",
       "Você tem algum problema em mostrar carinho pela sua família?"]],
-
+    
     [r'(.*) criança(.*)',
      ["Você teve amigos próximos quando era criança?",
       "Qual sua memória favorita da infância?",
@@ -264,7 +264,6 @@ psychobabble = [
       "Muito interessante.",
       "{0}.",
       "Entendo.  E o que isto diz a você?",
-      "Como isso faz você se sentir?",
       "Como você se sente quando você fala isso?"]]
 ]
 
