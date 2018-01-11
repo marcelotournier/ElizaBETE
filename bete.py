@@ -216,10 +216,9 @@ psychobabble = [
       "Por que você pensa {0}?"]],
 
     [r'quero (.*)',
-     ["O que significaria para você se você tivesse {0}?",
+     ["O que significaria para você - conseguir {0}?",
       "Por que você quer {0}?",
-      "O que você faria se você tivesse {0}?",
-      "Se você tivesse {0}, então o que você vai fazer?"]],
+      "E se você não conseguir {0}, o que você vai fazer?"]],
 
     [r'(.*) mãe(.*)',
      ["Diga mais sobre sua mãe.",
