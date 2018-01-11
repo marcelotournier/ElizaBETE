@@ -30,6 +30,7 @@ reflections = {
     "vou": "vai",
     "irei": "irá",
     "meu": "seu",
+    "minha": "sua",
     "é": "sou",
     "você tem": "Eu tenho",
     "você irá": "eu irá",
@@ -259,10 +260,12 @@ psychobabble = [
     [r'(.*)',
      ["Por favor, conte mais.",
       "Você pode me explicar com mais detalhes?",
-      "Por que você diz -- {0}?",
+      "Por que?",
       "Entendo.",
+      "O que isto quer dizer?",
       "Muito interessante.",
-      "{0}.",
+      "Vamos mudar de assunto? Fale de alguma outra coisa boa que aconteceu com você recentemente.",
+      "{0}. E o que lá no fundo isto quer dizer?",
       "Entendo.  E o que isto diz a você?",
       "Como você se sente quando você fala isso?"]]
 ]
