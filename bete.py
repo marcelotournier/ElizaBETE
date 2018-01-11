@@ -263,7 +263,7 @@ psychobabble = [
       "Por que?",
       "Entendo.",
       "O que isto quer dizer?",
-      ""{0}". Muito interessante.",
+      "Você diz: {0}. Muito interessante.",
       "{0}. E o que lá no fundo isto quer dizer?",
       "Entendo.  E o que isto diz a você?",
       "Como você se sente quando você fala isso?"]]
